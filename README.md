@@ -324,7 +324,7 @@ http://www.regular-expressions.info/refext.html:
 
 1. Match the escape sequence \xFF where FF are 2 hexadecimal digits: Matches the
 	character with the specified ASCII/ANSI value, which depends on the code
-	page used. Can be used in character classes eg. \xA9 matches © when using
+	page used. Can be used in character classes eg. \xA9 matches Â© when using
 	the Latin-1 code page. ( On second thought it is not really that useful
 	since I'm not supporting unicode, besides I already use \x for something
 	else )
@@ -347,7 +347,7 @@ http://www.regular-expressions.info/refext.html:
 
 In implementing this Regex pattern matcher,  I consulted these sources:
 
-* [1] "Pattern Matching with Regular Expressions in C++" by Oliver Müller
+* [1] "Pattern Matching with Regular Expressions in C++" by Oliver MÃ¼ller
 	Published in Issue 27 of Linux Gazette, April 1998
 	http://linuxgazette.net/issue27/mueller.html
 * [2] "Regular Expression Matching Can Be Simple And Fast
